@@ -7,6 +7,7 @@ A docker image of [Rok4](http://www.rok4.org) (GitHub : [rok4/rok4](https://gith
 ```
 docker run --publish 9000:9000 rok4/rok4
 ```
+See at [rok4/docker-rok4datatest](https://github.com/rok4/docker-rok4datatest) for ready datatest.
 
 ## Custom Config
 You can custom settings by providing environment variable or environment file.

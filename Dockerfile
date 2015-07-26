@@ -1,6 +1,7 @@
 FROM debian:wheezy
 MAINTAINER Thibault Coupin <thibault.coupin@ign.fr>
 
+LABEL version="0.25.1"
 ENV ROK4_VERSION 0.25.1
 
 RUN mkdir /rok4

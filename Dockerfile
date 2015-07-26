@@ -1,7 +1,7 @@
 FROM debian:wheezy
 MAINTAINER Thibault Coupin <thibault.coupin@ign.fr>
 
-ENV ROK4_VERSION 0.19.0
+ENV ROK4_VERSION 0.25.1
 
 RUN mkdir /rok4
 WORKDIR /rok4

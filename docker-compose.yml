@@ -1,0 +1,10 @@
+nginx:
+  image: nginx
+  ports:
+    - "8080:80"
+  links:
+    - rok4
+  volumes:
+    - nginx/:/etc/nginx/conf.d
+rok4:
+  image: rok4/rok4

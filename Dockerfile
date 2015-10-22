@@ -7,12 +7,12 @@ ENV ROK4_VERSION 0.25.1
 RUN mkdir /rok4
 WORKDIR /rok4
 RUN apt-get update
-RUN apt-get install gettext
-RUN apt-get install nasm
-RUN apt-get install perl
-RUN apt-get install libxml2-dev
-RUN apt-get install libgdal-perl
-RUN apt-get install liblog-log4perl-perl libconfig-inifiles-perl libxml-libxml-simple-perl libfile-copy-link-perl
+RUN apt-get install -y gettext
+RUN apt-get install -y nasm
+RUN apt-get install -y perl
+RUN apt-get install -y libxml2-dev
+RUN apt-get install -y libgdal-perl
+RUN apt-get install -y liblog-log4perl-perl libconfig-inifiles-perl libxml-libxml-simple-perl libfile-copy-link-perl
 RUN apt-get install -y wget ca-certificates
 RUN echo 'deb http://ftp.fr.debian.org/debian/ testing main' >> /etc/apt/sources.list
 RUN apt-get update
